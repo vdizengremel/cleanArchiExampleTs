@@ -39,7 +39,8 @@ Elle est sous divisée en 2 parties :
 
 ### Use case
 Un use case représente une fonctionnalité du système. Il n'a donc qu'une seule responsabilité : orchestrer le métier pour réaliser la fonctionnalité.
-Un fichier = un use case. Un use case n'a qu'une seule méthode publique : execute. Celle-ci n'a que deux arguments : un pour l'entrée et un pour la sortie
+Un fichier = un use case. Un use case n'a qu'une seule méthode publique : execute. Celle-ci n'a que deux arguments : un pour l'entrée et un pour la sortie.
+Leur type est déclaré dans le même fichier que le use case.
 
 Les use cases doivent être indépendants les uns des autres. Un use case ne peut connaître que ce qu'il y a dans le domaine.
 
